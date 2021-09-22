@@ -12,7 +12,7 @@ const gentlyCopy = require('gently-copy');
 
 const filesToCopy = ['src/serverless.yml','src/secrets.json'];
 
-// User's local directory
+//  local directory
 const copyPath = '../../../';
 
 
