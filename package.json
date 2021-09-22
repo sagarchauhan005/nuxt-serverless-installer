@@ -1,28 +1,38 @@
 {
-    "name": "@sagarchauhan005/nuxt-serverless-installer",
-    "description": "Nuxt Serverless Installer",
-    "version": "0.0.1",
-    "license": "MIT",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "postinstall": "node ./post-install.js"
+  "name": "@sagarchauhan005/nuxt-serverless-installer",
+  "description": "Nuxt Serverless Installer",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./post-install.js"
+  },
+  "dependencies": {
+    "gently-copy": "^3.2.0"
+  },
+  "authors": [
+    {
+      "name": "sagarchauhan.gh",
+      "email": "sagar.chauhan@greenhonchos.com"
     },
-    "dependencies": {
-        "gently-copy": "^3.2.0"
-    },
-    "publishConfig": {
-        "registry":"https://npm.pkg.github.com"
-    },
-    "repository": "https://github.com/sagarchauhan005/nuxt-serverless-installer",
-    "authors": [
-        {
-            "name": "sagarchauhan.gh",
-            "email": "sagar.chauhan@greenhonchos.com"
-        },
-        {
-            "name": "sagar chauhan",
-            "email": "coolsagar005@gmail.com"
-        }
-    ]
+    {
+      "name": "sagar chauhan",
+      "email": "coolsagar005@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarchauhan005/nuxt-serverless-installer.git"
+  },
+  "keywords": [
+    "nuxt",
+    "serverless",
+    "installer"
+  ],
+  "author": "Sagar Chauhan",
+  "bugs": {
+    "url": "https://github.com/sagarchauhan005/nuxt-serverless-installer/issues"
+  },
+  "homepage": "https://github.com/sagarchauhan005/nuxt-serverless-installer#readme"
 }

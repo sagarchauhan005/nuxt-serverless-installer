@@ -4,7 +4,7 @@ A simple nuxt installer package that guides you into installing a fully optimise
 
 # Installation
 
-Run `npm install sagar-nuxt-serverless-installer` into your app and then follow the steps.
+Run `npm install @sagarchauhan005/nuxt-serverless-installer` into your app and then follow the steps.
 
 ## Run Setup
 
