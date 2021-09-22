@@ -20,9 +20,17 @@ Run `npm install @sagarchauhan005/nuxt-serverless-installer` into your app and t
 ```
 service: <your-dummy-site-name>  # service: kartmax-nuxt-dummy-site
 ```
-
-3. Now as a last step, install aws-cli for your OS and then run 'serverless deploy' as a command (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-4. To access your lambda logs directly, please install Bref Dashboard (Visit https://dashboard.bref.sh/ and download the deb package for linux)
+3. Modify your nuxt.config file from 
+   ````
+   exports default {
+   ````
+   to
+   ````
+   module.exports = {
+   ````
+   
+4. Now as a last step, install aws-cli for your OS and then run 'serverless deploy' as a command (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+5. To access your lambda logs directly, please install Bref Dashboard (Visit https://dashboard.bref.sh/ and download the deb package for linux)
 
 # Author
 

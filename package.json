@@ -1,7 +1,7 @@
 {
   "name": "@sagarchauhan005/nuxt-serverless-installer",
   "description": "Nuxt Serverless Installer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
