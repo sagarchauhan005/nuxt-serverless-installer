@@ -1,0 +1,24 @@
+{
+    "name": "@sagarchauhan005/nuxt-serverless-installer",
+    "description": "Nuxt Serverless Installer",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node ./post-install.js"
+    },
+    "dependencies": {
+        "gently-copy": "^3.2.0"
+    },
+    "authors": [
+        {
+            "name": "sagarchauhan.gh",
+            "email": "sagar.chauhan@greenhonchos.com"
+        },
+        {
+            "name": "sagar chauhan",
+            "email": "coolsagar005@gmail.com"
+        }
+    ]
+}
