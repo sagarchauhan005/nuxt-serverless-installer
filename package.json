@@ -11,6 +11,9 @@
     "dependencies": {
         "gently-copy": "^3.2.0"
     },
+    "publishConfig": {
+        "registry":"https://npm.pkg.github.com"
+    },
     "authors": [
         {
             "name": "sagarchauhan.gh",
