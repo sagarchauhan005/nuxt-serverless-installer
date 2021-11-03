@@ -37,6 +37,8 @@ functions:
     handler: index.nuxt
     events:
       - httpApi: '*'
+    layers:
+      - arn:aws:lambda:ap-south-1:531458784015:layer:sagar-chauhan-aws-lambda-layer-nodejs-nuxt-installation:9
 
 plugins:
   - serverless-apigw-binary

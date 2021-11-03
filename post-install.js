@@ -10,11 +10,11 @@
 
 const gentlyCopy = require('gently-copy');
 
-const filesToCopy = ['src/serverless.yml','src/secrets.json','src/binaryMimeTypes.js','src/index.js','src/nuxt.js'];
+const filesToCopy = ['src/serverless.yml','src/secrets.json','src/Makefile','src/binaryMimeTypes.js','src/index.js','src/nuxt.js'];
 
 //  local directory
 const copyPath = '../../../';
 
 
 // Moving files to user's local directory
-gentlyCopy(filesToCopy, copyPath, {overwrite: true})
+gentlyCopy(filesToCopy, copyPath, {overwrite: false})
