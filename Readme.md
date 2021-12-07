@@ -18,7 +18,7 @@ A simple nuxt installer package that guides you into installing a fully optimise
 - To access your lambda logs directly, please install Bref Dashboard (Visit https://dashboard.bref.sh/ and download the deb package for linux)
 <hr>
 
-#Manual Installation
+# Manual Installation
 
 ## Run Setup
 
