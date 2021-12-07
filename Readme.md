@@ -4,7 +4,21 @@ A simple nuxt installer package that guides you into installing a fully optimise
 
 # Installation
 
-Run `npm install @sagarchauhan005/nuxt-serverless-installer` into your app and then follow the steps.
+- Run `npm install @sagarchauhan005/nuxt-serverless-installer` into your app and then follow the steps.
+- Run `make setup` to set up the project.
+- Modify your nuxt.config file from
+   ````
+   exports default {
+   ````
+  to
+   ````
+   module.exports = {
+   ````
+- Finally, run `make deploy` to deploy your app.
+- To access your lambda logs directly, please install Bref Dashboard (Visit https://dashboard.bref.sh/ and download the deb package for linux)
+<hr>
+
+#Manual Installation
 
 ## Run Setup
 
@@ -20,6 +34,7 @@ Run `npm install @sagarchauhan005/nuxt-serverless-installer` into your app and t
 ```
 service: <your-dummy-site-name>  # service: kartmax-nuxt-dummy-site
 ```
+
 3. Modify your nuxt.config file from 
    ````
    exports default {
